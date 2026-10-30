@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:planalto.gov.br)",
+      "WebFetch(domain:www.planalto.gov.br)",
+      "WebFetch(domain:gov.br)",
+      "WebFetch(domain:www.gov.br)",
+      "WebFetch(domain:lexml.gov.br)",
+      "WebFetch(domain:www.lexml.gov.br)",
+      "WebFetch(domain:consumidor.gov.br)",
+      "WebFetch(domain:falabr.cgu.gov.br)",
+      "mcp__fetch__fetch",
+      "mcp__markitdown__convert_to_markdown",
+      "Read(./docs/**)",
+      "Edit(./docs/**)",
+      "Write(./docs/**)"
+    ],
+    "deny": [
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  },
+  "enabledMcpjsonServers": ["fetch", "markitdown", "playwright"]
+}

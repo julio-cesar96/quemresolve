@@ -1,0 +1,1 @@
+../../.claude/skills/verificar-fontes/SKILL.md

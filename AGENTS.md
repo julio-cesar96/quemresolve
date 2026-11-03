@@ -10,6 +10,7 @@ Objetivos do produto:
 
 1. Explicar ao cidadão, em linguagem simples, **o que é responsabilidade de cada cargo**: Prefeito, Governador, Presidente, Vereadores, Deputados Estaduais, Deputados Federais e Senadores.
 2. **Rotear** o cidadão para o canal certo (ouvidoria, órgão de controle, Procon, MP etc.) quando um serviço público não funciona.
+3. **Não ranqueia, não recomenda nem compara candidatos ou partidos** (ver ADR 0001). Conteúdo eleitoral é só educativo: competência do cargo e mecanismo de legendas/coligações.” A regra 7 continua como está.
 
 Fluxo central que todo o produto serve:
 

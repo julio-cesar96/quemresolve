@@ -3,12 +3,13 @@
 > Rodar com: `/pesquisa docs/prompts/01-pesquisa-competencias-e-ouvidorias.md`
 > Executar **uma parte por vez** (A, B, C). Ao terminar cada parte: parar, listar pendências (`⚠️ NÃO VERIFICADO`) e aguardar o "seguir".
 > Papel, regras de fonte e formato: `AGENTS.md` e skills `civic-research` e `research-report`. Em divergência, `AGENTS.md` prevalece.
+> A parte a executar vem depois do caminho (ex.: `... parte B`). Se nenhuma for indicada, executar **só a Parte A**.
 
 Atue como Arquiteto de Software e Pesquisador de Produtos Cívicos. Estamos na Fase 0 (Pesquisa) do app descrito no `AGENTS.md`. Não implemente código.
 
 ## Antes de começar
 
-1. Confirmar que existem e ler `competencias-ponto-de-partida.md`, `fontes-oficiais.md` e `lgpd-ponto-de-partida.md` (caminho: `.claude/skills/civic-research/references/>`). Se algum faltar, **parar e avisar**. Não reconstruir de memória.
+1. Confirmar que existem e ler `competencias-ponto-de-partida.md`, `fontes-oficiais.md` e `lgpd-ponto-de-partida.md` (caminho: `.claude/skills/civic-research/references/`). Se algum faltar, **parar e avisar**. Não reconstruir de memória.
 2. Registrar no topo de cada relatório a data real de acesso e o escopo coberto.
 
 ## Público e escopo
@@ -62,6 +63,6 @@ Atue como Arquiteto de Software e Pesquisador de Produtos Cívicos. Estamos na F
 ## Formato e critério de pronto
 
 - Fonte nas tabelas por número `[n]`; lista de Fontes no fim com URL, data de acesso e confiança.
-- Cada arquivo termina com **Perguntas abertas** e **Fontes**.
+- Seguir o template da skill `research-report`: Resumo (até 5 linhas), tabelas, **Lacunas**, **Perguntas abertas** e **Fontes**, nesta ordem.
 - `docs/research/competencias-e-ouvidorias.md` fica como **índice**: resumo de cada parte, perguntas abertas consolidadas e lista de todos os `⚠️` pendentes.
 - Pronto quando: os 7 cargos e o DF estão cobertos; toda área da cobertura mínima tem linha na matriz; todo canal tem URL `✅` ou `⚠️`; nenhuma afirmação factual está sem fonte; a lista de pendências está no índice.

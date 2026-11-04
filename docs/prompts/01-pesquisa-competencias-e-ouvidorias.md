@@ -8,7 +8,7 @@ Atue como Arquiteto de Software e Pesquisador de Produtos Cívicos. Estamos na F
 
 ## Antes de começar
 
-1. Confirmar que existem e ler `competencias-ponto-de-partida.md` e `lgpd-ponto-de-partida.md` (caminho: <preencher>). Se algum faltar, **parar e avisar**. Não reconstruir de memória.
+1. Confirmar que existem e ler `competencias-ponto-de-partida.md`, `fontes-oficiais.md` e `lgpd-ponto-de-partida.md` (caminho: `.claude/skills/civic-research/references/>`). Se algum faltar, **parar e avisar**. Não reconstruir de memória.
 2. Registrar no topo de cada relatório a data real de acesso e o escopo coberto.
 
 ## Público e escopo
@@ -16,7 +16,7 @@ Atue como Arquiteto de Software e Pesquisador de Produtos Cívicos. Estamos na F
 - Público: cidadão comum, sem conhecimento jurídico. Texto simples primeiro; base legal em bloco separado.
 - Cargos: Prefeito, Governador, Presidente, Vereador, Deputado Estadual, Deputado Federal, Senador, **mais** nota sobre o Distrito Federal (Deputado Distrital, sem Vereador) e seção curta sobre quem **não** é cargo eletivo mas é confundido com eles (juiz, promotor, delegado, agências reguladoras).
 - Profundidade dos canais: **federal** completo; **estadual** e **municipal** como padrão ("onde encontrar") + até 3 exemplos reais cada, de regiões diferentes, marcados como exemplo. Não tentar cobrir 27 UFs nem 5.570 municípios.
-- Fora de escopo: omes de pessoas e partidos, dados de candidatos, parecer jurídico, valores em R$ sem fonte
+- Fora de escopo: nomes de pessoas e partidos, dados de candidatos, parecer jurídico, valores em R$ sem fonte
 
 ## Parte A — Competências → `docs/research/competencias.md`
 
@@ -24,7 +24,7 @@ Atue como Arquiteto de Software e Pesquisador de Produtos Cívicos. Estamos na F
 
 **A2. Matriz problema → responsável.** Usar os problemas da referência e **garantir cobertura mínima** destas áreas (acrescentar o que faltar, marcando como "adição"): saúde; educação; segurança pública; trânsito e transporte coletivo; vias e obras (buraco, calçada, iluminação, drenagem); saneamento, lixo e limpeza urbana; energia, telefonia e internet; meio ambiente e poluição sonora; assistência social e benefícios (CadÚnico, Bolsa Família, INSS); moradia; consumo (banco, plano de saúde, operadora, compras); trabalho; direitos (violência doméstica, criança e adolescente, idoso, discriminação); mau uso de dinheiro público e conduta de servidor; acesso à informação pública; propaganda eleitoral irregular e compra de voto; demora e acesso à Justiça.
 
-- Colunas: ID (P01…) · problema · quem executa · quem financia/regula (se diferente) · papel do Legislativo · confiança · fonte (ID `[Fxx]`).
+- Colunas: ID (P01…) · problema · quem executa · quem financia/regula (se diferente) · papel do Legislativo · confiança · fonte (número `[n]`).
 - Competência compartilhada: não escolher um nível. Explicar a divisão em bloco abaixo da tabela.
 - Incluir explicitamente os casos de fronteira: **quem administra a via** (federal/estadual/municipal), **serviço concedido** e **público vs. privado**.
 
@@ -61,7 +61,7 @@ Atue como Arquiteto de Software e Pesquisador de Produtos Cívicos. Estamos na F
 
 ## Formato e critério de pronto
 
-- Fonte nas tabelas por ID `[Fxx]`; lista de Fontes no fim com URL, data de acesso e confiança.
+- Fonte nas tabelas por número `[n]`; lista de Fontes no fim com URL, data de acesso e confiança.
 - Cada arquivo termina com **Perguntas abertas** e **Fontes**.
 - `docs/research/competencias-e-ouvidorias.md` fica como **índice**: resumo de cada parte, perguntas abertas consolidadas e lista de todos os `⚠️` pendentes.
 - Pronto quando: os 7 cargos e o DF estão cobertos; toda área da cobertura mínima tem linha na matriz; todo canal tem URL `✅` ou `⚠️`; nenhuma afirmação factual está sem fonte; a lista de pendências está no índice.

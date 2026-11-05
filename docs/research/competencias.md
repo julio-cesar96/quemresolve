@@ -56,7 +56,7 @@ Explicação em linguagem simples primeiro; base legal na coluna seguinte.
 
 | ID | Problema | Quem executa | Quem financia / regula (se diferente) | Papel do Legislativo | Conf. | Fonte |
 |---|---|---|---|---|---|---|
-| P01 | Buraco no asfalto | **Depende de quem administra a via** (ver "Fronteiras"): municipal, estadual ou federal | — | Pedir providência/fiscalizar o órgão da via (A3) | ✅ (regra de circunscrição) | [3] |
+| P01 | Buraco no asfalto | **Depende de quem administra a via** (ver "Fronteiras"): municipal, estadual ou federal | — | Pedir providência/fiscalizar o órgão da via (A3) | ✅ (circunscrição de trânsito) · 🟡 (que "buraco" seja do órgão da via: o art. 21 não cita conservação do pavimento; ver Revisão 2) | [3] |
 | P02 | Calçada quebrada | Em regra Município (interesse local, ordenamento urbano). Quem paga o conserto (prefeitura ou dono do imóvel) depende de lei local | — | Vereador: lei local sobre calçadas | 🟡 · ⚠️ (regra local não verificada) | [1] art. 30, I, VIII |
 | P03 | Iluminação pública | Município | Município pode criar contribuição própria para custear iluminação | Vereador: aprova a lei da contribuição e fiscaliza | ✅ | [1] art. 149-A |
 | P04 | Drenagem / alagamento | Município, no caso de interesse local; estado em conjunto com municípios em regiões metropolitanas (interesse comum) | Lei de saneamento; regulação por entidade reguladora | Fiscalizar obras e orçamento | 🟡 titularidade ✅ · ⚠️ (se drenagem entra na definição do art. 3º) | [11] art. 8 |
@@ -255,3 +255,22 @@ Também não verifiquei: Lei 14.026/2020 (marco do saneamento) além do que cons
 - Linha da pessoa Prefeito: art. 30, VI trata de educação infantil e ensino fundamental com cooperação da União e do Estado; o relatório usa para "creche", o que é coerente, mas a CF não diz "creche" no art. 30.
 
 **Sem problema aparente na leitura:** nenhuma simplificação errada de competência (saúde, educação, meio ambiente, moradia e segurança aparecem como compartilhadas ou por nível, com "depende"); Executivo × Legislativo está explícito; não vi URL, telefone ou artigo claramente inventado. As URLs da lista de Fontes seguem o padrão do Planalto, mas não foram abertas.
+
+## Revisão 2 (2026-11-05, segunda passada)
+
+**Fontes abertas nesta passada:** o Planalto continuou inacessível (curl sem conexão). Consegui abrir o texto do CTB (Lei 9.503/1997) em `www2.camara.leg.br/legin/fed/lei/1997/lei-9503-23-setembro-1997-372348-publicacaooriginal-1-pl.html`. É a **redação original de 1997**, não o texto compilado vigente; serve para estrutura e competência, não para detalhes alterados depois. LexML, Câmara e Senado respondem; a CF e as demais leis (Fontes 1, 2, 4–12) **não foram reabertas**.
+
+**Confirmado (CTB, redação original)**
+- Art. 21: competência dos órgãos executivos **rodoviários** da União, estados, DF e municípios, "no âmbito de sua circunscrição". Confirma a correção da Revisão anterior (vias).
+- Art. 22: órgãos executivos de **trânsito** dos estados e DF; inclui CNH (inc. II) e registro/licenciamento de veículos (inc. III), ambos "mediante delegação do órgão federal competente".
+- Art. 24: órgãos executivos de trânsito dos **municípios**, na sua circunscrição (sinalização, fiscalização, multas por infrações de circulação, estacionamento e parada).
+- Art. 1º, §3º: os órgãos do Sistema Nacional de Trânsito respondem, "no âmbito das respectivas competências", por danos causados por ação, omissão ou erro na execução e manutenção de programas, projetos e serviços de trânsito seguro. Apoia o roteamento por circunscrição, mas **não** diz que buraco no pavimento é do órgão da via.
+
+**Alterado**
+- P01 (buraco no asfalto): a marca ✅ valia para a regra de circunscrição de trânsito. Ligar "buraco" ao órgão da via é inferência (o art. 21 não menciona conservação do pavimento nem obras); marcado 🟡 nessa parte.
+- Mantido o ⚠️ de "recuperar rodovia estadual" (Governador), pelo mesmo motivo.
+
+**Observações (sem alteração, para a Fase 1)**
+- A fonte 3 cita `l9503compilado.htm`; a leitura desta passada foi da redação original. O compilado precisa ser reconferido quando o Planalto voltar.
+- Contagem "23 itens ⚠️" em Lacunas não foi recontada nesta passada.
+- Não achei URL, telefone ou artigo inventado nas partes conferidas. Nenhuma simplificação errada de competência: saúde, educação, meio ambiente, moradia e segurança aparecem como compartilhadas ou "depende", e Executivo × Legislativo está explícito.

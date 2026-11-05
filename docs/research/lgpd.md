@@ -199,9 +199,23 @@ As 5 decisões estratégicas estão na seção 2 (Q1–Q5). Perguntas jurídicas
 
 ## Fontes
 
-1. Lei 13.709/2018 (LGPD) — https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm — acesso em 2026-11-04 — ✅
-2. Lei 13.608/2018 (Disque-Denúncia; informante, com alterações da Lei 13.964/2019) — https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13608.htm — acesso em 2026-11-04 — ✅
-3. Lei 12.527/2011 (LAI), art. 31 — https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm — acesso em 2026-11-04 — ✅
-4. ANPD, página inicial — https://www.gov.br/anpd/pt-br — acesso em 2026-11-04 — ✅ (só existência de guias e canais; conteúdo não lido)
+1. Lei 13.709/2018 (LGPD) — https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm — acesso em 2026-11-04 — 🟡 (leitura de 2026-11-04 não reconfirmada na revisão de 2026-11-05: planalto.gov.br inacessível)
+2. Lei 13.608/2018 (Disque-Denúncia; informante, com alterações da Lei 13.964/2019) — https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13608.htm — acesso em 2026-11-04 — 🟡 (leitura de 2026-11-04 não reconfirmada na revisão de 2026-11-05: planalto.gov.br inacessível)
+3. Lei 12.527/2011 (LAI), art. 31 — https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm — acesso em 2026-11-04 — 🟡 (leitura de 2026-11-04 não reconfirmada na revisão de 2026-11-05: planalto.gov.br inacessível)
+4. ANPD, página inicial — https://www.gov.br/anpd/pt-br — acesso em 2026-11-04 (reaberta em 2026-11-05) — ✅ (só existência de guias e canais; conteúdo não lido)
 
 `[C n]` = [competencias.md](competencias.md) (acesso em 2026-11-03). `[B n]` = [ouvidorias.md](ouvidorias.md) (acesso em 2026-11-04). `[B-ref]` = referência interna `lgpd-ponto-de-partida.md`, que é pista, não fonte.
+
+## Revisão (2026-11-05)
+
+Revisão independente via `/verificar-fontes`. **Limitação:** `planalto.gov.br` não respondeu nesta sessão (curl e MCP `fetch` falharam na conexão; o Playwright MCP estava ocupado), então **não foi possível reabrir as Fontes 1–3**.
+
+**O que mudou**
+- Fontes 1, 2 e 3 (Leis 13.709, 13.608 e 12.527): ✅ → 🟡 na lista de Fontes, com o motivo. Os ✅ de artigos no corpo do texto dependem dessas fontes e ficam **pendentes de reconferência** (não foram contraditos, apenas não reconfirmados). Reabrir quando o site estiver acessível.
+- Fonte 4 (ANPD): reaberta e confirmada (`gov.br/anpd/pt-br`, HTTP 200). A página cita "Agência Nacional de Proteção de Dados" e também "Autoridade Nacional de Proteção de Dados", e menciona "ECA Digital". Mantém ✅ (só existência), como o relatório já dizia.
+
+**Conferido sem alteração**
+- Não encontrei URL, telefone ou artigo claramente inventado. Os links internos (`competencias.md`, `ouvidorias.md`, `fontes-oficiais.md`, `lgpd-ponto-de-partida.md`) existem.
+- Citações de artigos consistentes com o que se conhece das leis (conferência de memória, não é verificação): LGPD arts. 5º, 7º, 11, 18, 41; Lei 13.608 arts. 3º, 4º-A a 4º-C; LAI art. 31; Lei 13.460 art. 10.
+- Competência: o relatório não faz simplificações de competência; o tema aqui é LGPD/denúncia.
+- Contagem de pendências (12) bate com a lista em Lacunas. Os ✅ de `[B n]` e `[C n]` (telefones de emergência, Disque 100 etc.) pertencem a outros relatórios e **não foram revisados aqui**.

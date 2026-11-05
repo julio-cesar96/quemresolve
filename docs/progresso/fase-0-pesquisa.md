@@ -29,7 +29,7 @@ Nenhuma decisão nova. Vale a ADR existente: [0001](../decisions/0001-foco-em-qu
 - `fetch` e `curl` não funcionaram; usei o Playwright para todas as leituras.
 - A rodada de resolução de pendências não estava no plano original, foi pedida durante a fase.
 - A página da CF no Planalto mistura texto antigo e vigente; só o vigente foi citado.
-- A contagem de pendências foi corrigida mais de uma vez. O total de **61** é aproximado, porque algumas pendências aparecem em mais de um relatório.
+- A contagem de pendências foi corrigida mais de uma vez. O total de **64** é aproximado, porque algumas pendências aparecem em mais de um relatório.
 
 ## Pendências para a Fase 1
 
@@ -50,9 +50,9 @@ Nenhuma decisão nova. Vale a ADR existente: [0001](../decisions/0001-foco-em-qu
 | 11 | Conteúdo opcional | "Promessa × competência" no MVP? Registro local de protocolos? | competencias.md #3; ouvidorias.md #5 |
 | 12 | Jurídico | Itens para advogado ou DPO (controlador × operador, base legal, encarregado, crianças) | lgpd.md 1.8 |
 
-### Itens ⚠️ ainda não verificados (cerca de 61)
+### Itens ⚠️ ainda não verificados (cerca de 64)
 
-- **Parte B (26), alta prioridade:**
+- **Parte B (29), alta prioridade** (3 vieram da revisão de `ouvidorias.md` em 2026-11-05: Recife, Porto Alegre, DPE-SP):
   - Anonimato de ANEEL, Anatel, ANS, ANAC, ANTT, Banco Central, DPU, Procon, Conselho Tutelar, Ligue 180 e CGU.
   - Ouvidorias e corregedorias das polícias estaduais e controladorias.
   - Atendimento da DPU (o site gov.br/dpu deu 404).

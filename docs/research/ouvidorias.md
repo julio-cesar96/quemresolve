@@ -7,7 +7,7 @@
 
 ## Resumo
 
-Abri as páginas oficiais de órgãos federais, estaduais e municipais e copiei URL, telefone e regra de cada uma. Conclusões: (1) **não existe uma "porta única"**: federal usa Fala.BR, consumo usa consumidor.gov.br/Procon, telecom/energia/saúde suplementar têm agência própria com telefone próprio; (2) **anonimato varia por canal**: Fala.BR e Disque 100 admitem manifestação anônima, MPF só por correio, MPSP e TCU aceitam, o Pardal (eleitoral) e o consumidor.gov.br exigem identificação (com sigilo no Pardal); (3) **prazos legais só foram confirmados** para ouvidoria (30+30 dias), LAI (20+10), consumidor.gov.br (10 dias) e ANS (5 ou 10 dias úteis). Na rodada de resolução de 2026-11-04 ficaram confirmados 190, 193, Disque 100, Ligue 180 e o Pardal. Restam **26 pendências ⚠️** (ver Lacunas), com destaque para ouvidorias de polícias estaduais e anonimato por agência.
+Abri as páginas oficiais de órgãos federais, estaduais e municipais e copiei URL, telefone e regra de cada uma. Conclusões: (1) **não existe uma "porta única"**: federal usa Fala.BR, consumo usa consumidor.gov.br/Procon, telecom/energia/saúde suplementar têm agência própria com telefone próprio; (2) **anonimato varia por canal**: Fala.BR e Disque 100 admitem manifestação anônima, MPF só por correio, MPSP e TCU aceitam, o Pardal (eleitoral) e o consumidor.gov.br exigem identificação (com sigilo no Pardal); (3) **prazos legais só foram confirmados** para ouvidoria (30+30 dias), LAI (20+10), consumidor.gov.br (10 dias) e ANS (5 ou 10 dias úteis). Na rodada de resolução de 2026-11-04 ficaram confirmados 190, 193, Disque 100, Ligue 180 e o Pardal. Restam **29 pendências ⚠️** (ver Lacunas), com destaque para ouvidorias de polícias estaduais e anonimato por agência.
 
 > **Aviso permanente:** ouvidoria não substitui emergência (ver seção 4).
 
@@ -32,7 +32,7 @@ Abri as páginas oficiais de órgãos federais, estaduais e municipais e copiei 
 
 | Canal | O que aceita | Aceita anônimo? | Contato verificado | URL oficial | Conf. | Fonte |
 |---|---|---|---|---|---|---|
-| **Anatel** (telefonia, internet) | Reclamações contra prestadoras, outras manifestações, sugestões e denúncias sobre exploração ilegal de telecom | ⚠️ | **1331** | https://www.gov.br/anatel/pt-br/consumidor/quer-reclamar | ✅ | [10] |
+| **Anatel** (telefonia, internet) | Reclamações contra prestadoras, outras manifestações, sugestões e denúncias sobre exploração ilegal de telecom | ⚠️ | **1331** (seg–sex, dias úteis, 8h–20h; número lido em /canais_atendimento/telefone, não em "quer-reclamar") | https://www.gov.br/anatel/pt-br/canais_atendimento/telefone | ✅ | [10] |
 | **ANEEL** (energia) | Reclamação contra a distribuidora (a ANEEL orienta falar antes com a distribuidora), Fale Conosco, aplicativo | ⚠️ | **167** (e 0800 727 0167) | https://www.gov.br/aneel/pt-br/canais_atendimento | ✅ | [11] |
 | **ANS** (plano de saúde) | Reclamação e dúvida; a operadora é notificada (NIP). Prazos: 5 dias úteis (cobertura) ou 10 dias úteis (outros). Disque ANS: seg–sex, 8h às 20h | ⚠️ | **0800 701 9656**; deficiência auditiva: **0800 021 2105** | https://www.gov.br/ans/pt-br/canais_atendimento/canais-de-atendimento-ao-consumidor | ✅ | [12] |
 | **ANAC** (aviação civil) | Ouvidoria (manifestações sobre serviços e atendimento da ANAC) e reclamação de passageiro contra empresa aérea. Prazo legal da ouvidoria: 30 dias, prorrogável por mais 30 | ⚠️ | **163** | https://www.gov.br/anac/pt-br/canais_atendimento/ouvidoria | ✅ | [13] |
@@ -71,7 +71,7 @@ Cada estado e município tem seus próprios canais. **O padrão** (🟡, a parti
 | Ministério Público | MPPE | Nordeste | Ouvidoria, Fale Conosco e formulário; telefone geral (81) 3182-7000 | https://portal.mppe.mp.br/ouvidoria | ✅ | [21] |
 | Tribunal de Contas | TCE-SP | Sudeste | Ouvidoria, central 0800 800 7575 | https://www.tce.sp.gov.br/ouvidoria | ✅ | [22] |
 | Tribunal de Contas | TCE-PE | Nordeste | Link "Ouvidoria" na página inicial | https://ouvidoria.tcepe.tc.br/ | ✅ (link) · ⚠️ (conteúdo) | [23] |
-| Defensoria | DPE-SP | Sudeste | Agendamento de atendimento, "Ouvidoria-Geral" | https://www.defensoria.sp.def.br | ✅ | [24] |
+| Defensoria | DPE-SP | Sudeste | "Ouvidoria-Geral" (Fale com a Ouvidoria e Manifestação). Agendamento de atendimento: ⚠️ não encontrado na página inicial na revisão | https://www.defensoria.sp.def.br | ✅ (Ouvidoria-Geral) · ⚠️ (agendamento) | [24] |
 | Defensoria | DPE-PE | Nordeste | Atendimento, Ouvidoria Externa, Telefones Úteis | https://www.defensoria.pe.def.br/telefones_uteis/ | ✅ (links) · ⚠️ (telefones) | [25] |
 
 Tentativas sem sucesso (não listadas como exemplo): Procon-RS (tempo esgotado), MPRS (página abriu, link de ouvidoria não localizado). **Região Sul sem exemplo estadual válido nesta rodada.**
@@ -81,8 +81,8 @@ Tentativas sem sucesso (não listadas como exemplo): Procon-RS (tempo esgotado),
 | Exemplo | Região | O que foi lido | URL | Conf. | Fonte |
 |---|---|---|---|---|---|
 | São Paulo (capital) | Sudeste | Ouvidoria da prefeitura e portal "156" | https://sp156.prefeitura.sp.gov.br/portal · https://prefeitura.sp.gov.br/web/ouvidoria/w/fale_com_a_ouvidoria/227268 | ✅ | [26] |
-| Recife | Nordeste | Ouvidoria própria e categoria "Ouvidoria e Denúncias" no portal de serviços | https://ouvidoria.recife.pe.gov.br/ | ✅ | [27] |
-| Porto Alegre | Sul | "156 POA" e WhatsApp do 156; "Fale conosco" | https://prefeitura.poa.br/cidadao | ✅ | [28] |
+| Recife | Nordeste | Ouvidoria própria e categoria "Ouvidoria e Denúncias" no portal de serviços (lido em 2026-11-04; a página deu tempo esgotado duas vezes na revisão de 2026-11-05) | https://ouvidoria.recife.pe.gov.br/ | ⚠️ (não reconfirmado) | [27] |
+| Porto Alegre | Sul | Central do Cidadão com "156 Web" (solicitar serviços e acompanhar protocolos) e telefone 156; Ouvidoria (denúncias, reclamações, sugestões e elogios) e canal "Denuncie". WhatsApp do 156 e "Fale conosco": ⚠️ não confirmados na revisão | https://prefeitura.poa.br/cidadao | ✅ (156 Web, telefone 156, Ouvidoria) · ⚠️ (WhatsApp) | [28] |
 
 Observação: Lei 13.460, art. 17: cada Poder e esfera disciplina sua ouvidoria por ato próprio [C4]. Se o município não tem ouvidoria, o usuário pode ir direto ao órgão que presta o serviço e ao órgão a que ele se subordina (art. 10, §3º) [C4] ✅.
 
@@ -134,7 +134,7 @@ Prazos só quando houve fonte. "→" é a ordem sugerida; **nenhuma etapa garant
 | Corpo de Bombeiros | **193**: incêndios, acidentes, resgates, salvamentos e outras situações de risco | ✅ | [34] |
 | Defesa Civil | **199**: desastres e riscos à população, como enchentes e deslizamentos | ✅ | [34] |
 | Polícia Rodoviária Federal | **191**: ocorrências e emergências nas rodovias federais | ✅ | [34] |
-| Violência contra a mulher | **Ligue 180**: ligação gratuita, 24 h por dia, todos os dias; WhatsApp (61) 9610-0180. Informa direitos, indica serviços e registra e encaminha denúncias. Anonimato: ⚠️ | ✅ | [33][34] |
+| Violência contra a mulher | **Ligue 180**: ligação gratuita, 24 h por dia, todos os dias; WhatsApp (61) 9610-0180. Informa direitos, indica serviços e registra e encaminha denúncias. **Risco imediato: a própria página do Ligue 180 manda acionar a Polícia Militar (190).** Anonimato: ⚠️ | ✅ | [33][34] |
 | Violações de direitos humanos (inclui crianças e idosos) | **Disque 100** (Disque Direitos Humanos): 24 h por dia, todos os dias, gratuito; aceita denúncia anônima; WhatsApp (61) 99611-0100 | ✅ | [31][32] |
 | Proteção da criança (local) | Conselho Tutelar do município (ECA, art. 131) | ✅ (lei) · ⚠️ (contato) | [C9] |
 | Violência doméstica: o que a polícia deve fazer | Registrar a ocorrência e adotar procedimentos imediatos (Lei 11.340, art. 12) | ✅ | [C10] |
@@ -143,7 +143,7 @@ Prazos só quando houve fonte. "→" é a ordem sugerida; **nenhuma etapa garant
 
 ## Lacunas
 
-26 pendências ⚠️ nesta parte (34 originais, 9 resolvidas e 1 nova em 2026-11-04 e 05; as resolvidas aparecem riscadas):
+29 pendências ⚠️ nesta parte (34 originais, 9 resolvidas, 1 nova em 2026-11-04 e 05 e 3 novas da revisão de 2026-11-05; as resolvidas aparecem riscadas):
 
 1. ~~Anonimato no Fala.BR~~ ✅ resolvido: a Ouvidoria da PF informa a opção de manifestação anônima. Falta conferir órgão a órgão.
 2. Anonimato em ANEEL, Anatel, ANS, ANAC, ANTT, Banco Central, DPU, Procon, Conselho Tutelar, Ligue 180, CGU (11 canais). ~~Disque 100~~ ✅ resolvido (aceita denúncia anônima). ANEEL e ANAC usam o Fala.BR para a ouvidoria institucional, mas a regra de anonimato de cada agência não foi lida.
@@ -160,8 +160,11 @@ Prazos só quando houve fonte. "→" é a ordem sugerida; **nenhuma etapa garant
 13. Estados do **Sul** sem exemplo (Procon-RS e MPRS falharam); **Norte e Centro-Oeste** não tentados.
 14. Quais estados/municípios aderiram ao **Fala.BR**.
 15. Telefone e atendimento da **DPU**: a página `/atendimento` tentada retornou 404.
+16. **Recife**: página da ouvidoria não reabriu na revisão (tempo esgotado); reconfirmar.
+17. **Porto Alegre**: WhatsApp do 156 e "Fale conosco" não confirmados.
+18. **DPE-SP**: como agendar atendimento não confirmado na página inicial.
 
-Contagem: 34 originais − 9 resolvidas (telefone da ANTT; Fala.BR; Disque 100 anonimato; Disque 100 horário/canais; Ligue 180 horário/canais; 190; 193; Justiça Eleitoral; art. 129, VII) + 1 nova (vigência do Pardal) = **26 pendências ⚠️**.
+Contagem: 34 originais − 9 resolvidas (telefone da ANTT; Fala.BR; Disque 100 anonimato; Disque 100 horário/canais; Ligue 180 horário/canais; 190; 193; Justiça Eleitoral; art. 129, VII) + 1 nova (vigência do Pardal) + 3 da revisão (Recife, Porto Alegre, DPE-SP) = **29 pendências ⚠️**.
 
 ## Perguntas abertas
 
@@ -213,3 +216,42 @@ Contagem: 34 originais − 9 resolvidas (telefone da ANTT; Fala.BR; Disque 100 a
 36. Polícia Rodoviária Federal — https://www.gov.br/prf/pt-br — acesso em 2026-11-04
 
 `[C n]` = fontes 1 (CF/88), 4, 5, 7, 9, 10, 11 de [competencias.md](competencias.md), acessadas em 2026-11-03.
+
+## Revisão (2026-11-05)
+
+Revisão feita a partir de uma nova abertura das páginas citadas (Playwright), como se o relatório fosse de outra pessoa. Sem busca nova de conteúdo.
+
+**Confirmado nas páginas (✅ mantido):** Fala.BR (canal WhatsApp "em caráter experimental"); consumidor.gov.br (10 dias para a empresa, 20 para avaliar, "deve se identificar adequadamente"); MPF (0800 000 5640, denúncia anônima só por via postal, conta gov.br nível bronze, sigilo dos dados); TCU (0800 644 2300 opção 1, 10h–18h, "Manifestações anônimas", denúncia com sigilo da identidade se solicitado); ANEEL (167 e 0800 727 0167, seg–sáb 8h–20h); ANS (0800 701 9656, 0800 021 2105, seg–sex 8h–20h, 5 dias úteis para cobertura); ANAC (163, 8h–20h, 30 dias prorrogáveis por mais 30); Banco Central (145); ANTT (166, WhatsApp); TSE Ouvidoria e Pardal (Portaria 451/2026, e-Título/gov.br, sigilo, protocolo, MPE); SAMU 192; 190, 191, 193 e 199 (notícia do MCom); Disque 100 (anônimo, 24 h, WhatsApp); Ligue 180 (24 h, WhatsApp, e-mail); PF (opção anônima no Fala.BR); PRF (links do Fala.BR na página inicial); Procon-SP (151 só para chamadas do município de SP, seg–sex 8h–18h; presencial 9h–17h com agendamento); MPSP (manifestação pode ser anônima); MPPE ((81) 3182-7000); TCE-SP (0800 800 7575, na página inicial); DPU, Procon-PE e TCE-PE (páginas abrem). Textos de lei conferidos no Planalto: Lei 13.460 (arts. 10 e §3º, 16, 17), Lei 12.527 (art. 11 §§1º–2º, art. 15), Lei 11.445 (art. 21), ECA (arts. 131, 132), Lei 11.340 (art. 12), CDC (art. 105), CF (arts. 74 §2º, 129 II, III e VII, 134).
+
+**Alterado:**
+- **Porto Alegre:** o texto dizia "156 POA e WhatsApp do 156; Fale conosco". A página mostra 156 Web, telefone 156, Ouvidoria e "Denuncie"; WhatsApp e "Fale conosco" não apareceram. Texto corrigido e WhatsApp marcado ⚠️.
+- **Recife:** a página deu tempo esgotado duas vezes. Rebaixado de ✅ para ⚠️ (não reconfirmado).
+- **DPE-SP:** "Agendamento de atendimento" não aparece na página inicial. Mantida a Ouvidoria-Geral ✅ e rebaixado o agendamento para ⚠️.
+- **Anatel:** o 1331 está em /canais_atendimento/telefone, não em "quer-reclamar" (que a tabela citava). URL da tabela trocada.
+
+**Observações sem mudança de marca:**
+- A fonte [34] é uma notícia institucional do MCom, não a página de cada serviço (já dito na lista de Fontes).
+- Fonte [10] (Anatel) cita as duas páginas; só a de telefone traz o 1331.
+- O 8h–20h do Disque ANS e os horários de ANEEL, Anatel e ANAC passam a poder ser citados; a tabela não os trazia todos.
+- Não encontrei URL, telefone ou artigo inventado. Não achei simplificação errada de competência: o relatório trata Ministério Público, Defensoria e Tribunais de Contas como controle, e a PRF só em rodovias federais.
+- Não reconfirmei nesta revisão: o anonimato "segundo a PF" é afirmação da PF sobre o Fala.BR, não regra lida por órgão; a página inicial do Fala.BR não menciona anonimato.
+
+
+## Revisão (2026-11-05, segunda passada com `fetch`)
+
+Nota: o comando digitado foi `/vericar-fontes` (não existe); a revisão foi feita como pedido simples. Releitura com o MCP `fetch`, independente da passada anterior (Playwright).
+
+**Reconfirmado (✅ mantido):** Anatel 1331 (seg–sex, 8h–20h, gratuito, página /telefone); ANS (0800 701 9656, 0800 021 2105, Disque ANS seg–sex 8h–20h, 5 e 10 dias úteis, NIP); Disque 100/ONDH ("as denúncias podem ser anônimas", sigilo da fonte quando solicitado); Ligue 180 (gratuito, 24 h, WhatsApp (61) 9610-0180, e-mail, registra e encaminha denúncias); notícia do MCom (190, 192, 193, 199, 191, 180; publicada 11/09/2026, atualizada 27/10/2026).
+
+**Alterado:**
+- **Ligue 180 (seção 4):** a página oficial diz que, em emergência, deve-se acionar a PM pelo 190. A tabela listava o 180 entre os serviços de emergência sem esse aviso; acrescentado.
+
+**Não reconfirmado nesta passada (marca mantida, motivo técnico):**
+- ANTT (Ouvidoria) e MPF (Denúncias): o `fetch` recebeu só "carregando conteúdo" / cabeçalho (página renderizada por JavaScript). Dependem da leitura via Playwright da passada anterior.
+- TSE (Pardal e Ouvidoria) e MPSP (Ouvidoria): bloqueio 403 a acesso automatizado. Mesma dependência.
+- Não reabertos: demais itens do relatório (leis, TCU, ANEEL, ANAC, BC, Procon, TCEs, Defensorias, prefeituras).
+
+**Observações:**
+- A fonte [34] (notícia do MCom) lista os números e as situações de uso, mas não afirma gratuidade nem 24 h; o relatório só atribui à notícia as descrições, o que está correto. Gratuidade/24 h do 192 vêm da fonte [18].
+- Fonte [14] está com acesso 2026-11-04, mas o contato da ANTT foi lido em 2026-11-05 (ver linha da tabela); ajustar a data na lista de Fontes.
+- Não encontrei URL, telefone ou artigo inventado entre os itens reabertos, nem simplificação errada de competência.

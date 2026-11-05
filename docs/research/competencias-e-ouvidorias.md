@@ -12,7 +12,7 @@
 | B — Canais | [ouvidorias.md](ouvidorias.md) | 2026-11-04 | Canais federais (Fala.BR, MPF, TCU, agências, Banco Central, consumidor.gov.br), exemplos estaduais e municipais, escadas de escalonamento, emergência. Anonimato varia por canal. |
 | C — LGPD e decisões | [lgpd.md](lgpd.md) | 2026-11-04 | LGPD, anônimo × sigiloso, modelo "só redireciona" × "recebe e encaminha", 5 decisões para a Fase 1. |
 
-Fontes primárias: texto vigente da CF/88 e de 12 leis no Planalto (8.080, 9.503, 13.460, 12.527, 9.394, 8.078, 9.504, 8.069, 11.340, 11.445, 13.709, 13.608), mais páginas oficiais de ~25 órgãos. Detalhes em cada relatório.
+Fontes primárias: texto vigente da CF/88 e de 13 leis no Planalto (8.080, 9.503, 13.460, 12.527, 9.394, 8.078, 9.504, 8.069, 11.340, 11.445, 13.709, 13.608 e, em parte, 8.742), mais páginas oficiais de ~25 órgãos. Detalhes em cada relatório.
 
 ## Perguntas abertas consolidadas
 
@@ -29,13 +29,13 @@ Decisões para a **Fase 1** (nenhuma foi tomada na pesquisa).
 | 7 | Lacunas de conteúdo | Ocultar ou mostrar com aviso as áreas ainda ⚠️ (idoso, discriminação, assistência social)? | [competencias.md](competencias.md) #4 |
 | 8 | Variação local | Texto genérico com aviso ou curadoria por município (Lei Orgânica, regimentos)? | [competencias.md](competencias.md) #5 |
 | 9 | Anonimato | Como mostrar o que cada canal afirma sobre anonimato, quando é incerto? | [ouvidorias.md](ouvidorias.md) #3 |
-| 10 | Emergência | Exibir 190/193 só depois de verificar em fonte oficial? | [ouvidorias.md](ouvidorias.md) #4 |
+| 10 | Emergência | Quais números de emergência exibir? 190, 192, 193, 199, 191, 180 e 100 já têm fonte oficial (ver ouvidorias.md, seção 4); decidir quais entram e com que aviso (o Ligue 180 manda ligar 190 em emergência) | [ouvidorias.md](ouvidorias.md) #4 |
 | 11 | Conteúdo opcional | Seção "promessa × competência" no MVP (ADR 0001)? Registro local de protocolos? | [competencias.md](competencias.md) #3; [ouvidorias.md](ouvidorias.md) #5 |
 | 12 | Jurídico | Itens para advogado/DPO: controlador × operador, base legal, dispensa de encarregado, transferência internacional, crianças (ECA Digital) | [lgpd.md](lgpd.md) 1.8 |
 
 ## Pendências ⚠️ (todas)
 
-Total: **61** (A: 23 · B: 26 · C: 12; alguns itens aparecem em mais de um relatório, então a soma pode contar a mesma pendência duas vezes). Eram 73 antes da rodada de resolução de 2026-11-04 (A: 27 · B: 34 · C: 12). A lista completa e numerada está na seção **Lacunas** de cada relatório (itens resolvidos aparecem riscados); abaixo, o resumo por tema.
+Total: **64** (A: 23 · B: 29 · C: 12; alguns itens aparecem em mais de um relatório, então a soma pode contar a mesma pendência duas vezes). Eram 73 antes da rodada de resolução de 2026-11-04 (A: 27 · B: 34 · C: 12). A lista completa e numerada está na seção **Lacunas** de cada relatório (itens resolvidos aparecem riscados); abaixo, o resumo por tema.
 
 ### Alta prioridade (afetam segurança ou o fluxo central)
 
@@ -63,4 +63,18 @@ Total: **61** (A: 23 · B: 26 · C: 12; alguns itens aparecem em mais de um rela
 - Textos legais foram lidos no Planalto pelo navegador (Playwright), pois `fetch` e `curl` falharam por falta de rede. A página da CF mostra texto antigo e vigente lado a lado; só citei o vigente.
 - Decisões de produto e de stack **não** foram tomadas. Ver `docs/decisions/` na Fase 1.
 
-- **Rodada de resolução (2026-11-04):** resolvidos 190, 193 (e 199, 191), Disque 100, Ligue 180 (horário e canais), anonimato do Fala.BR, Pardal (Justiça Eleitoral), controle externo da polícia (CF art. 129, VII) e CF arts. 61 §2º, 153 III, 155 III e 204. **Não resolvidos** por falta de página oficial acessível: telefone da ANTT, atendimento da DPU (404), polícias estaduais, Sul/Norte/Centro-Oeste, e itens jurídicos de LGPD.
+- **Rodada de resolução (2026-11-04 e 05):** resolvidos 190, 193 (e 199, 191), Disque 100, Ligue 180 (horário e canais), anonimato do Fala.BR, Pardal (Justiça Eleitoral), controle externo da polícia (CF art. 129, VII) e CF arts. 61 §2º, 153 III, 155 III e 204. **Não resolvidos** por falta de página oficial acessível: atendimento da DPU (404), polícias estaduais, Sul/Norte/Centro-Oeste, e itens jurídicos de LGPD.
+
+## Revisão (2026-11-05)
+
+Arquivo é só índice: não tem URLs próprias nem itens ✅ com fonte para abrir. Conferi o índice contra os três relatórios, sem reabrir fontes externas (as fontes de B foram revistas em [ouvidorias.md](ouvidorias.md)).
+
+**Alterado:**
+- **Pergunta 10 (Emergência):** ainda perguntava se 190/193 deviam ser exibidos "só depois de verificar", mas a própria seção de pendências do índice os dá como resolvidos. Reescrita como decisão de quais números exibir e com que aviso; acrescentado que a página do Ligue 180 manda acionar o 190 em emergência.
+
+**Conferido sem mudança:**
+- Contagens: A 23 + B 29 + C 12 = 64; originais 27 + 34 + 12 = 73. Batem com as seções Lacunas de cada relatório (A: 21 itens não riscados + 2 parciais = 23; C: 12 itens listados).
+- Referências cruzadas às Perguntas abertas de competencias.md (#1, #3, #4, #5), ouvidorias.md (#1–5), lgpd.md (Q1–Q5, seção 1.8) existem.
+- "7 cargos + DF" e "42 problemas" conferem com competencias.md (P42 é o último).
+
+**Não conferido:** a lista "13 leis" (inclui a 8.742 só em parte, então são 12 completas + 1 parcial) e "~25 órgãos" não foram recontadas contra as listas de Fontes; as referências de item (A-4, A-5, A-7 a A-10, A-11, A-12 etc.) não foram abertas uma a uma. Nenhuma URL, telefone ou artigo inventado encontrado; nenhuma simplificação de competência (o índice repete o que está em competencias.md).

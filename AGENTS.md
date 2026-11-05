@@ -17,12 +17,14 @@ Fluxo central que todo o produto serve:
 problema do dia a dia → quem é responsável (nível + cargo/órgão) → onde e como reclamar/denunciar
 ```
 
-## Fase atual: PESQUISA
+## Fase atual: DECISÕES DE PRODUTO
 
-Estamos na **Fase 0 — Pesquisa e descoberta**. Nesta fase:
+Estamos na **Fase 1 — Decisões de produto** (a Fase 0 foi fechada em 2026-11-05; ver `docs/progresso/fase-0-pesquisa.md`). Nesta fase:
 
 - **Não escrever código de aplicação.** Nada de `src/`, `package.json`, frameworks ou scaffolding de app.
-- Toda saída vai para `docs/` em Markdown.
+- Toda saída vai para `docs/` em Markdown. Cada decisão vira um ADR curto em `docs/decisions/NNNN-titulo.md`.
+- O ponto de partida são as perguntas abertas e os itens ⚠️ em `docs/research/competencias-e-ouvidorias.md`. Decisão que dependa de item ⚠️ ou de advogado/DPO deve registrar isso no ADR.
+- Se uma decisão exigir pesquisa nova, as regras de pesquisa abaixo continuam valendo.
 - Stack técnica **não está decidida**. Não presumir Next.js, React, Vite ou backend. Recomendações de stack só entram como opção em `docs/decisions/`, nunca como fato.
 
 Fases previstas (não antecipar trabalho de fase posterior sem pedido explícito):
